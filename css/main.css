@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+th,td{
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.4s;
+}
+tr:hover td{
+    background-color: #ddd;
+    color: brown;
+}
